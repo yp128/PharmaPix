@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+
+#contact_form{
+    margin-top: 5%;
+    width: 100%;
+}
+.button {
+    background-color: #4CAF50;
+    border-width: 2px;
+	font-size: 18px;
+	padding: 5px;
+	height: 38px;
+	width: 10%;
+	font-weight: 500;
+	border-radius: 6px;
+	color: white;
+	align-self: center;
+    
+  }
+.txt,.txt1{
+	border-width: 2px;
+	border-color: grey;
+	height: 30px;
+	width: 40%;
+	border-radius: 6px;
+	color: black;
+	font-weight: 700;
+	font-size: 16px;
+	
+	background-color: white;
+}
+.txt1{
+	border-width: 2px;
+	border-color: grey;
+	height: 40px;
+	border-radius: 6PX;
+	color: black;
+	font-weight: 700;
+}
+.txt{
+    margin-left: 20px;
+}

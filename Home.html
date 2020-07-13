@@ -1,0 +1,156 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Pharma::Home</title>
+        <link type="text/css" href="CSS/Home.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === pic.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = pic[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 3000);
+          }
+
+          var pic = [], x = -1;
+          pic[0] = "Images/slide_1.JPG";
+          pic[1] = "Images/slide_2.JPG";
+          
+      </script>
+    </head>
+    <body onload="startTimer()">
+        <header id="hdr">
+            <div class="back">
+                <div class="logo">
+                    <img src="Images/logo.JPG" alt="logo" class="logo1">
+                </div>
+                <div class="header_menu ">
+                    <ul class="header_ul">
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="About%20Us_1.html">ABOUT</a></li>
+                        <li><a href="feedback.html">FEEDBACK</a></li>
+                    
+                    </ul>
+                </div>
+            </div>    
+        </header>
+        <main>
+            
+            <div >
+                <div id="slide_main">
+                    <img id="img" src="Images/slide_2.JPG" class="slide_img">
+                </div>
+            </div>
+            <div id="offer_div">
+                <img src="Images/1.JPG" class="offer_img">
+                <img src="Images/2.JPG" class="offer_img offer_img1" >
+                <img src="Images/3.JPG" class="offer_img offer_img1" >
+                
+            </div>
+            <div id="brand_div" >
+                <div class="brand_sub_div_1">
+                    Our Associate Companies...
+                </div>
+                <div class="brand_sub_div">
+                    <img src="Images/medicine%20logo.JPG" class="brand_logo_1">
+                    <img src="Images/medicine%20logo.JPG" class="brand_logo">
+                    <img src="Images/medicine%20logo.JPG" class="brand_logo">
+                    <img src="Images/medicine%20logo.JPG" class="brand_logo">
+                    <img src="Images/medicine%20logo.JPG" class="brand_logo">
+                    <img src="Images/medicine%20logo.JPG" class="brand_logo">
+                </div>
+                <div class="brand_sub_div">
+                    <p class="brand_p_1">Company A</p>
+                    <p class="brand_p">Company B</p>
+                    <p class="brand_p">Company C</p>
+                    <p class="brand_p">Company D</p>
+                    <p class="brand_p">Company E</p>
+                    <p class="brand_p">Company F</p>
+                </div>
+            </div>
+            <div id="brand_div_1024">
+                <div class="brand_sub_div_1">
+                    Our Associate Companies...
+                </div>
+                <div class="brand_sub_div">
+                    <img src="Images/medicine%20logo.JPG" class="brand_logo_1">
+                    <img src="Images/medicine%20logo.JPG" class="brand_logo">
+                    <img src="Images/medicine%20logo.JPG" class="brand_logo">
+                    <p class="brand_p_1">Company A</p>
+                    <p class="brand_p">Company B</p>
+                    <p class="brand_p">Company C</p>
+    
+                </div>
+                <div class="brand_sub_div">
+                    <img src="Images/medicine%20logo.JPG" class="brand_logo">
+                    <img src="Images/medicine%20logo.JPG" class="brand_logo">
+                    <img src="Images/medicine%20logo.JPG" class="brand_logo">
+                    <p class="brand_p">Company D</p>
+                    <p class="brand_p">Company E</p>
+                    <p class="brand_p">Company F</p>
+                </div>
+                
+            </div>
+            <div id="info_main">
+                <div id="info_div">
+                    <img src="Images/Health-Article-Topics.png" class="info_data">
+                    <img src="Images/fruit_selection_155265101_web.jpg" class="info_data">
+                    <img src="Images/world-health-day_23-2147515095.jpg" class="info_data">
+                    <div class="info_data1">You can get best health topics on the page</div>
+                    <div class="info_data1">Get information about nutritions</div>
+                    <div class="info_data1">World health day!!!</div>
+                    <div class="info_data2">Lorem ipsum dolor sit amet, consectetur adipiscing exit elit. Nulla vel porta metus. Ut suscipit, lorem quis sollicitudin tincidunt, velit sem...<a href="#">Read more</a></div>
+                    <div class="info_data2">Lorem ipsum dolor sit amet, exit exit consectetur adipiscing elit. Nulla vel porta metus. Ut suscipit, lorem quis sollicitudin tincidunt, velit sem... <a href="#">Read more</a></div>
+                    <div class="info_data2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel porta metus. Ut suscipit, lorem quis sollicitudin tincidunt, velit sem... <a href="#">Read more</a></div>
+                </div>
+            </div>
+
+            <div id="cell_div">
+                <img src="Images/cell-phone-icon-white-20.jpg" class="order_cell">
+                <p class="cell_txt">You can place your order by calling us on +1-888-xxx-xxxx</p>
+            </div>
+        </main>
+        <footer>
+            <ul class="footer_ul">
+                <li>
+                    <img src="Images/19-512.png" height="50px" width="50px">
+                    <p>location</p>
+                    Conestoga college,<br>
+                    Doon,Kitchener - A1A 1A1
+                </li>
+                <li>
+                    <img src="Images/f05067e39d.png" height="50px" width="50px">
+                    <p>Call</p>
+                    +1-416-849-1254<br>
+                    
+                </li>
+                <li>
+                    <img src="Images/images.png" height="50px" width="50px">
+                    <p>Mail</p>
+                    xxxxx@gmail.com<br>
+                    xxxxxxxx@gmail.com
+                </li>
+            </ul>
+            <div class="footer_div">
+                <p>Copyright &copy; All right reserved to Yash Patel</p>
+            </div>
+        </footer>
+        <script>
+             window.onscroll = function() {myFunction()};
+
+                var hdr1 = document.getElementById("hdr");
+                var stc = hdr1.offsetTop;
+
+                function myFunction() {
+                  if (window.pageYOffset > stc) {
+                    hdr1.classList.add("fix_header");
+                  } else {
+                    hdr1.classList.remove("fix_header");
+                  }
+                } 
+        </script>
+    </body>
+</html>
